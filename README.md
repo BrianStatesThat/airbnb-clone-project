@@ -43,16 +43,6 @@ It supports all core functionalities required to mimic the main features of Airb
 - **Indexing**: Implemented for faster data retrieval.
 - **Caching**: Strategies in place using Redis to reduce database load and enhance performance.
 
-## ⚙️ Technology Stack
-- **Django**: High-level Python web framework for building the backend.
-- **Django REST Framework**: Tools for building and managing RESTful APIs.
-- **PostgreSQL**: Relational database for structured data storage.
-- **GraphQL**: Flexible query language for the API.
-- **Celery**: For handling asynchronous tasks like sending notifications and processing payments.
-- **Redis**: Used for caching and session management.
-- **Docker**: For containerized development and deployment.
-- **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
-
 ## 👥 Team Roles
 
 ### 1. Business Analyst (BA)
@@ -89,3 +79,31 @@ It supports all core functionalities required to mimic the main features of Airb
 
 ### 9. DevOps Engineer
 - **Responsibilities**: Facilitates cooperation between development and operations teams. DevOps engineers build and maintain continuous integration and delivery (CI/CD) pipelines to streamline the software delivery process and ensure fast, reliable releases.
+
+## ⚙️ Technology Stack
+
+Our Airbnb Clone backend is built with a robust and scalable technology stack to ensure performance, security, and maintainability.
+
+### 1. **Django**
+   - **Purpose**: A high-level Python web framework used to build the core backend of the application. It provides a clean and maintainable structure for web applications and supports rapid development with built-in features like authentication, database management, and security.
+
+### 2. **Django REST Framework (DRF)**
+   - **Purpose**: A powerful toolkit for building RESTful APIs in Django. DRF simplifies API development by providing authentication, serialization, and request handling out of the box.
+
+### 3. **GraphQL**
+   - **Purpose**: A query language that provides a flexible and efficient way to retrieve and manipulate data from the backend. It allows clients to request only the data they need, reducing over-fetching and under-fetching issues.
+
+### 4. **PostgreSQL**
+   - **Purpose**: A powerful, open-source relational database used to store structured data such as user profiles, property listings, bookings, and payments. PostgreSQL ensures high performance and scalability.
+
+### 5. **Celery**
+   - **Purpose**: A task queue used for handling asynchronous background tasks. It is essential for processing time-consuming operations like sending notifications, handling large-scale database operations, and managing scheduled tasks.
+
+### 6. **Redis**
+   - **Purpose**: An in-memory key-value store used for caching and session management. It helps speed up database queries and improves overall system performance.
+
+### 7. **Docker**
+   - **Purpose**: A containerization tool that ensures the application runs in a consistent environment across different systems. It helps streamline development, testing, and deployment.
+
+### 8. **CI/CD Pipelines**
+   - **Purpose**: Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing and deploying code changes. This ensures smooth and efficient software delivery.
