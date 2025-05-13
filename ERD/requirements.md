@@ -1,1 +1,0 @@
-[Entity requirements document](https://github.com/BrianStatesThat/airbnb-clone-project/blob/5b26a743491ce2339f8c32c1fd2f7ec531e4a1c8/images/requirements.png)
