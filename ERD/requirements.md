@@ -1,1 +1,1 @@
-![ERD](https://drive.google.com/file/d/1IM43fjfbwlGz6sxQCCT9JFQH1PQGAER5/view?usp=drive_link)
+![ERD](https://drive.google.com/file/d/1IM43fjfbwlGz6sxQCCT9JFQH1PQGAER5/view?usp=drive_link?raw=true)
